@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Teste num...</title>
+        <link rel="stylesheet" href="assets/style.css">
+
+    </head>
+    
+    <body>
+         <div class="container">
+            <form action="loginpage.html" target="_blank" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label>
+                        Nome: <br>
+                        <input type="text" name="FirstName" required minlength="2" >
+                    </label><br>
+                    <label>
+                        Sobrenome: <br>
+                        <input type="text" name="LastName" minlength="2">
+                    </label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Dados Profissionais</legend>
+                    <label>
+                        Nome da Empresa: <br>
+                        <input type="text" name="empresaNome" required minlength="2">
+                    </label><br>
+
+                    <label>
+                        Cargo: <br>
+                        <input type="text" name="cargo" required minlength="2">
+                    </label><br>
+                </fieldset>
+                <input class="buttonSend" type="submit" value="Cadastrar">
+            </form>
+         </div>
+        
+    </body>
+</html>
